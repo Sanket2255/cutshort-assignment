@@ -1,0 +1,176 @@
+.font-face-gm {
+  font-family: "InterRegular";
+ }
+
+ .font-face-gm2 {
+  font-family: "InterSemiBold";
+ }
+
+
+.circle{
+    border: 1px solid grey;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 10px;
+    color: #000;
+    background: #fff;
+    float: left;
+    cursor: pointer;
+}
+
+.activeCircle{
+  background: #664de5 !important;
+  color: #fff !important;
+  border: 1px solid #664de5 !important;
+}
+
+.activeLine{
+  border-top:1px solid #664de5 !important;
+}
+
+.line{
+  display: flex;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width:40px;
+}
+
+.line-adj{
+  border-top: 1px solid grey ;
+  width: 100%;
+}
+
+.step-box{
+  float:left;
+}
+
+.container{
+  margin: 0 auto;
+  width: 350px;
+  font-family: "InterRegular";
+}
+
+.input{
+    height: 45px;
+}
+  
+.headline{
+    font-family: "InterSemiBold";
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.check{
+  margin-top: 70px;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.innercontent{
+  margin: 10px;
+}
+
+.headline-pg4{
+  font-family: "InterSemiBold";
+  text-align: center;
+}
+
+.eden{
+  font-family: "InterSemiBold";
+  
+  width: 17%;
+  margin: 0 auto;
+}
+
+.imageClass{
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 40px;
+} 
+
+.heading{
+  float: left;
+  line-height: 2.3;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.subheading{
+    font-family: "InterRegular";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content{
+    font-family: "InterRegular";
+    margin-left: 3%;
+    border: 1px solid rgb(206, 203, 203);
+    border-radius: 10px;
+    float: left;
+    height: 150px;
+    width: 150px;
+    padding: 3%;
+    cursor: pointer;
+}
+
+.content:hover .inner-content{
+    color: #664de5
+}
+
+.content:hover{
+    border: 1px solid #664de5;
+}
+
+.button {
+      font-family: "InterRegular";
+      background-color: #664de5;
+      border: none;
+      color: white;
+      height:45px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 10px;
+}
+  
+.button:hover {
+      background-color: #5937ff;
+      color: white;
+}
+
+.pg-btn{
+      font-family: "InterRegular";
+      margin-top: 25px;
+      background-color: #664de5;
+      border: none;
+      color: white;
+      height:45px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 10px;
+      width: 350px;
+
+}
+
+.pg-btn:hover{
+      background-color: #5937ff;
+      color: white;
+}
+
+
+@media (max-width: 575.98px){
+
+  .eden{
+    width: 38% !important;
+  }
+
+}
